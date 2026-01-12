@@ -1,0 +1,19 @@
+Birthday : 
+	nom
+	date
+
+User :
+	email
+	pwd
+
+
+Routes Birthday :
+- Créer Anniversaire      | POST    | /birthday      | {"name": "Chad", "date": "26-03-2004"}
+- Modifier Anniversaire   |PUT/PATCH| /birthday/{id} | {...}
+Consulter un Anniversaire | GET     | /birthday/{id} | vide
+Liste des Anniversaire 	  | GET     | /birthday      | vide
+Supprimer Anniversaire    | DELETE  | /birthday/{id} | vide
+
+
+Déserialisation
+Serialisation
